@@ -1,4 +1,7 @@
-package com.crrit.crrithandbook.lab32;
+package com.crrit.crrithandbook.labs.lab32;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Build;
@@ -9,16 +12,8 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
-import com.crrit.crrithandbook.AdapterCategoryAdminl32;
-import com.crrit.crrithandbook.CategoryAddActivityl32;
-import com.crrit.crrithandbook.ModelCategoryl32;
-import com.crrit.crrithandbook.PdfAddActivityl32;
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.constants.MainActivity;
-import com.crrit.crrithandbook.databinding.ActivityDashboardAdminActivityl32Binding;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -29,13 +24,12 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
-public class DashboardAdminActivityl32 extends AppCompatActivity {
-    private FirebaseAuth firebaseAuth;
-    private ActivityDashboardAdminActivityl32Binding binding;
+public class DashboardStudentActivityl32 extends AppCompatActivity {
 
+    private FirebaseAuth firebaseAuth;
+    private ActivityDashboardStudentActivityl32Binding binding;
     private ArrayList<ModelCategoryl32> categoryArrayList;
-    //adapter
-    private AdapterCategoryAdminl32 adapterCategoryAdminl32;
+    private AdapterCategoryFacultyandStudentl32 adapterCategoryFacultyandStudentl32;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,7 +43,7 @@ public class DashboardAdminActivityl32 extends AppCompatActivity {
         }
 
         super.onCreate(savedInstanceState);
-        binding = ActivityDashboardAdminActivityl32Binding.inflate(getLayoutInflater());
+        binding = ActivityDashboardStudentActivityl32Binding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         //init firebase auth
@@ -58,6 +52,7 @@ public class DashboardAdminActivityl32 extends AppCompatActivity {
         loadCategories();
 
         //edit text change
+        //search
         binding.searchEt.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -66,14 +61,13 @@ public class DashboardAdminActivityl32 extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                //call when user type
-                try {
-                    adapterCategoryAdminl32.getFilter().filter(s);
 
-                }catch (Exception e){
+                try {
+                    adapterCategoryFacultyandStudentl32.getFilter().filter(s);
+                }
+                catch (Exception e){
 
                 }
-
 
             }
 
@@ -82,7 +76,6 @@ public class DashboardAdminActivityl32 extends AppCompatActivity {
 
             }
         });
-
         //handle click logout
         binding.backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -91,21 +84,6 @@ public class DashboardAdminActivityl32 extends AppCompatActivity {
             }
         });
 
-        //handle click,start category add screen
-        binding.addCategoryBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(DashboardAdminActivityl32.this, CategoryAddActivityl32.class));
-            }
-        });
-
-        //handle click,start pdf add screen
-        binding.addPdfFab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(DashboardAdminActivityl32.this, PdfAddActivityl32.class));
-            }
-        });
 
     }
 
@@ -128,9 +106,9 @@ public class DashboardAdminActivityl32 extends AppCompatActivity {
 
                 }
                 //setup adapter
-                adapterCategoryAdminl32 = new AdapterCategoryAdminl32(DashboardAdminActivityl32.this,categoryArrayList);
+                adapterCategoryFacultyandStudentl32 = new AdapterCategoryFacultyandStudentl32(DashboardStudentActivityl32.this,categoryArrayList);
                 //set adapter to recycler view
-                binding.categoryRv.setAdapter(adapterCategoryAdminl32);
+                binding.categoryRv.setAdapter(adapterCategoryFacultyandStudentl32);
 
             }
 
@@ -154,7 +132,7 @@ public class DashboardAdminActivityl32 extends AppCompatActivity {
             //logged in ,get user info
             //String email = firebaseUser.getEmail();
             //set in text view of toolbar
-           // binding.subTitleTv.setText(email);
+            //binding.subTitleTv.setText(email);
         }
     }
 }

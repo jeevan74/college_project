@@ -19,28 +19,28 @@
         android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".DashboardStudentActivityl32"
+            android:name=".labs.lab32.DashboardStudentActivityl32"
             android:exported="false" />
         <activity
-            android:name=".DashboardFacultyActivityl32"
+            android:name=".labs.lab32.DashboardFacultyActivityl32"
             android:exported="false" />
         <activity
-            android:name=".PdfListFacultyandStudentActivityl32"
+            android:name=".labs.lab32.PdfListFacultyandStudentActivityl32"
             android:exported="false" />
         <activity
-            android:name=".PdfDetailedActivityl32"
+            android:name=".labs.lab32.PdfDetailedActivityl32"
             android:exported="false" />
         <activity
-            android:name=".PdfEditActivityl32"
+            android:name=".labs.lab32.PdfEditActivityl32"
             android:exported="false" />
         <activity
-            android:name=".PdfListAdminActivityl32"
+            android:name=".labs.lab32.PdfListAdminActivityl32"
             android:exported="false" />
         <activity
-            android:name=".PdfAddActivityl32"
+            android:name=".labs.lab32.PdfAddActivityl32"
             android:exported="false" />
         <activity
-            android:name=".CategoryAddActivityl32"
+            android:name=".labs.lab32.CategoryAddActivityl32"
             android:exported="false" />
         <activity
             android:name=".syllabus.DashboardStudentActivitySyllabus"
@@ -316,7 +316,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".lab32.DashboardAdminActivityl32"
+            android:name=".labs.lab32.DashboardAdminActivityl32"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

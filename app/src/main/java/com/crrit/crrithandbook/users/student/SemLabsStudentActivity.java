@@ -9,7 +9,7 @@ import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.crrit.crrithandbook.DashboardStudentActivityl32;
+import com.crrit.crrithandbook.labs.lab32.DashboardStudentActivityl32;
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.databinding.ActivitySemLabsStudentBinding;
 import com.crrit.crrithandbook.labs.lab11.DashboardStudentActivityl11;
