@@ -9,6 +9,7 @@ import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.crrit.crrithandbook.DashboardStudentActivityl32;
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.databinding.ActivitySemLabsStudentBinding;
 import com.crrit.crrithandbook.labs.lab11.DashboardStudentActivityl11;
@@ -78,6 +79,14 @@ public class SemLabsStudentActivity extends AppCompatActivity {
                 startActivity(new Intent(SemLabsStudentActivity.this, DashboardStudentActivityl31.class));
             }
         });
+
+        binding.Btn32.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SemLabsStudentActivity.this, DashboardStudentActivityl32.class));
+            }
+        });
+
         binding.Btn41.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

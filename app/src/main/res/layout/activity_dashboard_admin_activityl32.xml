@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lab32pending.DashboardAdminActivityl32"
+    tools:context=".lab32.DashboardAdminActivityl32"
     android:background="@color/secondary">
 
     <RelativeLayout
