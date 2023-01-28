@@ -9,9 +9,17 @@ import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.crrit.crrithandbook.lessonplans.lessonplan42.DashboardFacultyActivitylp42;
+import com.crrit.crrithandbook.lessonplans.lessonplan41.DashboardFacultyActivitylp41;
+import com.crrit.crrithandbook.lessonplans.lessonplan32.DashboardFacultyActivitylp32;
+import com.crrit.crrithandbook.lessonplans.lessonplan31.DashboardFacultyActivitylp31;
+import com.crrit.crrithandbook.lessonplans.lessonplan21.DashboardFacultyActivitylp21;
+import com.crrit.crrithandbook.lessonplans.lessonplan22.DashboardFacultyActivitylp22;
+import com.crrit.crrithandbook.lessonplans.lessonplan12.DashboardFacultyActivitylp12;
+import com.crrit.crrithandbook.lessonplans.lessonplan11.DashboardFacultyActivitylp11;
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.databinding.ActivitySemLessonplansFacultyBinding;
-import com.crrit.crrithandbook.lessonplans11.DashboardFacultyActivitylp11;
+
 
 public class SemLessonplansFacultyActivity extends AppCompatActivity {
     private ActivitySemLessonplansFacultyBinding binding;
@@ -43,5 +51,48 @@ public class SemLessonplansFacultyActivity extends AppCompatActivity {
             }
         });
 
+        binding.Btn12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SemLessonplansFacultyActivity.this, DashboardFacultyActivitylp12.class));
+            }
+        });
+        binding.Btn21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SemLessonplansFacultyActivity.this, DashboardFacultyActivitylp21.class));
+            }
+        });
+
+        binding.Btn22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SemLessonplansFacultyActivity.this, DashboardFacultyActivitylp22.class));
+            }
+        });
+        binding.Btn31.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SemLessonplansFacultyActivity.this, DashboardFacultyActivitylp31.class));
+            }
+        });
+        binding.Btn32.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SemLessonplansFacultyActivity.this, DashboardFacultyActivitylp32.class));
+            }
+        });
+        binding.Btn41.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SemLessonplansFacultyActivity.this, DashboardFacultyActivitylp41.class));
+            }
+        });
+        binding.Btn42.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SemLessonplansFacultyActivity.this, DashboardFacultyActivitylp42.class));
+            }
+        });
     }
 }

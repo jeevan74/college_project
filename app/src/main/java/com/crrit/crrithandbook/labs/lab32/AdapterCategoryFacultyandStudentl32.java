@@ -13,12 +13,14 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import com.crrit.crrithandbook.databinding.RowCategoryFacultyAndStudentBinding;
+
 import java.util.ArrayList;
 
 
 public class AdapterCategoryFacultyandStudentl32 extends RecyclerView.Adapter<AdapterCategoryFacultyandStudentl32.HolderCategory>implements Filterable {
 
-    private Context context;
+    private final Context context;
     public ArrayList<ModelCategoryl32> categoryArrayList1,filterList;
 
     private RowCategoryFacultyAndStudentBinding binding;

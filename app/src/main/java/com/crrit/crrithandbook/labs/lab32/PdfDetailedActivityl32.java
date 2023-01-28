@@ -19,6 +19,7 @@ import android.widget.Toast;
 
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.constants.PdfViewActivity;
+import com.crrit.crrithandbook.databinding.ActivityPdfDetailedActivityl32Binding;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -104,7 +105,7 @@ public class PdfDetailedActivityl32 extends AppCompatActivity {
 
     }
     //request storage permissions
-    private ActivityResultLauncher<String> requestPermissionsLauncher =
+    private final ActivityResultLauncher<String> requestPermissionsLauncher =
             registerForActivityResult(new ActivityResultContracts.RequestPermission(), isGranted ->{
                 if (isGranted){
                     Log.d(TAG_DOWNLOAD, "Permissions Granted");

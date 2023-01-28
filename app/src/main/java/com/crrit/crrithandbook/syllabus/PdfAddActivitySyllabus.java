@@ -104,7 +104,8 @@ public class PdfAddActivitySyllabus extends AppCompatActivity {
 
     }
 
-    private String title ="",description = "";
+    private String title ="";
+    private final String description = "";
 
     private void validateData() {
         Log.d(TAG, "validateData: validating data...");

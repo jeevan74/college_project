@@ -19,7 +19,7 @@ import java.util.ArrayList;
 
 public class AdapterCategoryFacultyandStudentSyllabus extends RecyclerView.Adapter<AdapterCategoryFacultyandStudentSyllabus.HolderCategory>implements Filterable {
 
-    private Context context;
+    private final Context context;
     public ArrayList<ModelCategorySyllabus> categoryArrayList1,filterList;
 
     private RowCategoryFacultyAndStudentsyllabusBinding binding;

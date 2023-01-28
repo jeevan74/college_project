@@ -129,7 +129,8 @@ public class PdfEditActivitySyllabus extends AppCompatActivity {
 
     }
 
-    private String title = "",description="";
+    private String title = "";
+    private final String description="";
     private void validateData(){
         title = binding.titleEt.getText().toString().trim();
 

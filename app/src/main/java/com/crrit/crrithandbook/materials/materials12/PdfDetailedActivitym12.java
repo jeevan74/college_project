@@ -105,7 +105,7 @@ public class PdfDetailedActivitym12 extends AppCompatActivity {
 
     }
     //request storage permissions
-    private ActivityResultLauncher<String> requestPermissionsLauncher =
+    private final ActivityResultLauncher<String> requestPermissionsLauncher =
             registerForActivityResult(new ActivityResultContracts.RequestPermission(), isGranted ->{
                 if (isGranted){
                     Log.d(TAG_DOWNLOAD, "Permissions Granted");

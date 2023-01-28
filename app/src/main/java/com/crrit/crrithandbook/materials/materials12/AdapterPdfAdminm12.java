@@ -24,12 +24,12 @@ import java.util.ArrayList;
 
 public class AdapterPdfAdminm12 extends RecyclerView.Adapter<AdapterPdfAdminm12.HolderPdfAdmin> implements Filterable {//
 
-    private Context context;//context
+    private final Context context;//context
     public ArrayList<ModelPdfm12> pdfArrayList,filterlist;//array holder
     private RowPdfAdminm12Binding binding;//vb
     private FilterPdfAdminm12 filter;
     private static final String TAG ="PDF_ADAPTER_TAG";
-    private ProgressDialog progressDialog;
+    private final ProgressDialog progressDialog;
 
     //con
     public AdapterPdfAdminm12(Context context1, ArrayList<ModelPdfm12> pdfArrayList) {

@@ -17,18 +17,19 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.crrit.crrithandbook.databinding.RowPdfAdminBinding;
 import com.github.barteksc.pdfviewer.PDFView;
 
 import java.util.ArrayList;
 
 public class AdapterPdfAdminl32 extends RecyclerView.Adapter<AdapterPdfAdminl32.HolderPdfAdmin> implements Filterable {//
 
-    private Context context;//context
+    private final Context context;//context
     public ArrayList<ModelPdfl32> pdfArrayList,filterlist;//array holder
     private RowPdfAdminBinding binding;//vb
     private FilterPdfAdminl32 filter;
     private static final String TAG ="PDF_ADAPTER_TAG";
-    private ProgressDialog progressDialog;
+    private final ProgressDialog progressDialog;
 
     //con
     public AdapterPdfAdminl32(Context context1, ArrayList<ModelPdfl32> pdfArrayList) {

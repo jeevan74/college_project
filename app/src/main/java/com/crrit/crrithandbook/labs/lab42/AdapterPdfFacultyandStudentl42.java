@@ -22,7 +22,7 @@ import java.util.ArrayList;
 
 public class AdapterPdfFacultyandStudentl42 extends RecyclerView.Adapter<AdapterPdfFacultyandStudentl42.HolderPdfAdmin>implements Filterable {//
 
-    private Context context;//context
+    private final Context context;//context
 
 
     public ArrayList<ModelPdfl42> pdfArrayList,filterlist;//array holder
@@ -32,7 +32,7 @@ public class AdapterPdfFacultyandStudentl42 extends RecyclerView.Adapter<Adapter
 
     private FilterPdfFacultyandStudentl42 filter;
     private static final String TAG ="PDF_ADAPTER_TAG";
-    private ProgressDialog progressDialog;
+    private final ProgressDialog progressDialog;
 
     //con
     public AdapterPdfFacultyandStudentl42(Context context1, ArrayList<ModelPdfl42> pdfArrayList) {

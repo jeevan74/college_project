@@ -19,6 +19,222 @@
         android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".lessonplans.lessonplan42.DashboardStudentActivitylp42"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan42.PdfListFacultyandStudentActivitylp42"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan42.DashboardFacultyActivitylp42"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan42.PdfDetailedActivitylp42"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan42.PdfEditActivitylp42"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan42.PdfListAdminActivitylp42"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan42.PdfAddActivitylp42"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan42.CategoryAddActivitylp42"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan42.DashboardAdminActivitylp42"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan41.DashboardStudentActivitylp41"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan41.PdfListFacultyandStudentActivitylp41"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan41.DashboardFacultyActivitylp41"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan41.PdfDetailedActivitylp41"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan41.PdfEditActivitylp41"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan41.PdfListAdminActivitylp41"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan41.PdfAddActivitylp41"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan41.CategoryAddActivitylp41"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan41.DashboardAdminActivitylp41"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan32.PdfListFacultyandStudentActivitylp32"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan32.DashboardFacultyActivitylp32"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan32.DashboardStudentActivitylp32"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan32.PdfDetailedActivitylp32"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan32.PdfEditActivitylp32"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan32.PdfListAdminActivitylp32"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan32.PdfAddActivitylp32"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan32.CategoryAddActivitylp32"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan32.DashboardAdminActivitylp32"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan31.PdfListFacultyandStudentActivitylp31"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan31.DashboardFacultyActivitylp31"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan31.PdfDetailedActivitylp31"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan31.PdfEditActivitylp31"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan31.PdfListAdminActivitylp31"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan31.PdfAddActivitylp31"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan31.CategoryAddActivitylp31"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan31.DashboardAdminActivitylp31"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan31.DashboardStudentActivitylp31"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan22.DashboardStudentActivitylp22"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan22.PdfListFacultyandStudentActivitylp22"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan22.PdfDetailedActivitylp22"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan22.PdfEditActivitylp22"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan22.PdfListAdminActivitylp22"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan22.PdfAddActivitylp22"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan22.CategoryAddActivitylp22"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan22.DashboardAdminActivitylp22"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan21.DashboardStudentActivitylp21"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan21.PdfListFacultyandStudentActivitylp21"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan21.DashboardFacultyActivitylp21"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan22.DashboardFacultyActivitylp22"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan21.PdfDetailedActivitylp21"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan21.PdfEditActivitylp21"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan21.PdfListAdminActivitylp21"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan21.PdfAddActivitylp21"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan21.CategoryAddActivitylp21"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan21.DashboardAdminActivitylp21"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan12.DashboardStudentActivitylp12"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan12.PdfListFacultyandStudentActivitylp12"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan12.DashboardFacultyActivitylp12"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan12.PdfDetailedActivitylp12"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan12.PdfEditActivitylp12"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan12.PdfListAdminActivitylp12"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan12.PdfAddActivitylp12"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan12.CategoryAddActivitylp12"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan12.DashboardAdminActivitylp12"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan11.CategoryAddActivitylp11"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan11.DashboardStudentActivitylp11"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan11.PdfListFacultyandStudentActivitylp11"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan11.DashboardFacultyActivitylp11"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan11.PdfDetailedActivitylp11"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan11.PdfEditActivitylp11"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan11.PdfListAdminActivitylp11"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan11.PdfAddActivitylp11"
+            android:exported="false" />
+        <activity
+            android:name=".lessonplans.lessonplan11.DashboardAdminActivitylp11"
+            android:exported="false" />
+        <activity
             android:name=".labs.lab32.DashboardStudentActivityl32"
             android:exported="false" />
         <activity
@@ -100,69 +316,6 @@
         </activity>
         <activity
             android:name=".syllabus.DashboardAdminActivitySyllabus"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".lessonplans11.DashboardStudentActivitylp11"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".lessonplans11.PdfListFacultyandStudentActivitylp11"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".lessonplans11.DashboardFacultyActivitylp11"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".lessonplans11.PdfDetailedActivitylp11"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".lessonplans11.PdfEditActivitylp11"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".lessonplans11.PdfListAdminActivitylp11"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".lessonplans11.PdfAddActivitylp11"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".lessonplans11.CategoryAddActivitylp11"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".lessonplans11.DashboardAdminActivitylp11"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
