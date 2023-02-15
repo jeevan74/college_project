@@ -9,6 +9,7 @@ import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.crrit.crrithandbook.timetables.DashboardAdminActivitytt12;
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.constants.MainActivity;
 import com.crrit.crrithandbook.databinding.ActivitySelectAdminBinding;
@@ -72,6 +73,12 @@ public class SelectActivityAdmin extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(SelectActivityAdmin.this, SemLessonplansAdminActivity.class));
+            }
+        });
+        binding.CV5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SelectActivityAdmin.this, DashboardAdminActivitytt12.class));
             }
         });
 

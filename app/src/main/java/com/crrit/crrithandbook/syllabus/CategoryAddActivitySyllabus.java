@@ -75,7 +75,7 @@ public class CategoryAddActivitySyllabus extends AppCompatActivity {
         catgory = binding.categoryEt.getText().toString().trim();
         //validate if not empty
         if (TextUtils.isEmpty(catgory)){
-            Toast.makeText(this,"Please Enter the Lab Title",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Please Enter the Regulation",Toast.LENGTH_SHORT).show();
         }
         else {
             addCategoryFirebase();

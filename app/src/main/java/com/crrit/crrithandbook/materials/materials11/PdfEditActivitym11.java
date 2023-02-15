@@ -136,13 +136,13 @@ public class PdfEditActivitym11 extends AppCompatActivity {
 
         //validate data
         if (TextUtils.isEmpty(title)){
-            Toast.makeText(this, "Please enter the lab name...", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Please enter the Subject name...", Toast.LENGTH_SHORT).show();
         }
         else if (TextUtils.isEmpty(description)){
             Toast.makeText(this, "Please enter the regulation...", Toast.LENGTH_SHORT).show();
         }
         else if (TextUtils.isEmpty(selectedCategoryId)){
-            Toast.makeText(this, "Please select the lab...", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Please select the subject...", Toast.LENGTH_SHORT).show();
         }
         else {
             updatePdf();

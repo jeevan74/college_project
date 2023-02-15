@@ -19,6 +19,33 @@
         android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".timetables.DashboardStudentActivitytt12"
+            android:exported="false" />
+        <activity
+            android:name=".timetables.PdfListFacultyandStudentActivitytt12"
+            android:exported="false" />
+        <activity
+            android:name=".timetables.DashboardFacultyActivitytt12"
+            android:exported="false" />
+        <activity
+            android:name=".timetables.PdfDetailedActivitytt12"
+            android:exported="false" />
+        <activity
+            android:name=".timetables.PdfEditActivitytt12"
+            android:exported="false" />
+        <activity
+            android:name=".timetables.PdfListAdminActivitytt12"
+            android:exported="false" />
+        <activity
+            android:name=".timetables.PdfAddActivitytt12"
+            android:exported="false" />
+        <activity
+            android:name=".timetables.CategoryAddActivitytt12"
+            android:exported="false" />
+        <activity
+            android:name=".timetables.DashboardAdminActivitytt12"
+            android:exported="false" />
+        <activity
             android:name=".lessonplans.lessonplan42.DashboardStudentActivitylp42"
             android:exported="false" />
         <activity

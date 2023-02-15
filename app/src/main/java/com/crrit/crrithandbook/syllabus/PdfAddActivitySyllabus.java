@@ -251,7 +251,7 @@ public class PdfAddActivitySyllabus extends AppCompatActivity {
         }
         //alert dialog
         AlertDialog.Builder builder= new AlertDialog.Builder(this);
-        builder.setTitle("Select Lab")
+        builder.setTitle("Select Category")
                 .setItems(catagoriesArray, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {

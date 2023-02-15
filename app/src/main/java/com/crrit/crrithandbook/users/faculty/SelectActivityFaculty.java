@@ -9,6 +9,7 @@ import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.crrit.crrithandbook.timetables.DashboardFacultyActivitytt12;
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.constants.MainActivity;
 import com.crrit.crrithandbook.databinding.ActivitySelectFacultyBinding;
@@ -73,6 +74,12 @@ public class SelectActivityFaculty extends AppCompatActivity {
             }
         });
 
+        binding.CV5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SelectActivityFaculty.this, DashboardFacultyActivitytt12.class));
+            }
+        });
     }
 
 
