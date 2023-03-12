@@ -1,5 +1,6 @@
 package com.crrit.crrithandbook.users.student;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -7,6 +8,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.crrit.crrithandbook.timetables.DashboardStudentActivitytt12;
@@ -41,11 +43,18 @@ public class SelectActivityStudent extends AppCompatActivity {
 
         firebaseAuth = FirebaseAuth.getInstance();
 
+//        binding.logoutBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                firebaseAuth.signOut();
+//                checkUser();
+//            }
+//        });
+
         binding.logoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                firebaseAuth.signOut();
-                checkUser();
+                logOut();
             }
         });
 
@@ -85,7 +94,25 @@ public class SelectActivityStudent extends AppCompatActivity {
         });
     }
 
-
+    private void logOut() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(SelectActivityStudent.this);
+        builder.setTitle("Logout")
+                .setMessage("Are you sure you want to Logout")
+                .setPositiveButton("Confirm", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        firebaseAuth.signOut();
+                        checkUser();
+                    }
+                })
+                .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.dismiss();
+                    }
+                })
+                .show();
+    }
 
 
     private void checkUser() {

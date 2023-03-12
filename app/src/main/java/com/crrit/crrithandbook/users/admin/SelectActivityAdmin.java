@@ -1,5 +1,6 @@
 package com.crrit.crrithandbook.users.admin;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -7,13 +8,16 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.crrit.crrithandbook.databinding.ActivitySelectAdminBinding;
 import com.crrit.crrithandbook.timetables.DashboardAdminActivitytt12;
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.constants.MainActivity;
-import com.crrit.crrithandbook.databinding.ActivitySelectAdminBinding;
+
 import com.crrit.crrithandbook.syllabus.DashboardAdminActivitySyllabus;
+import com.crrit.crrithandbook.users.student.SelectActivityStudent;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -42,8 +46,7 @@ public class SelectActivityAdmin extends AppCompatActivity {
         binding.logoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                firebaseAuth.signOut();
-                checkUser();
+                logOut();
             }
         });
 
@@ -85,7 +88,25 @@ public class SelectActivityAdmin extends AppCompatActivity {
 
     }
 
-
+    private void logOut() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(SelectActivityAdmin.this);
+        builder.setTitle("Logout")
+                .setMessage("Are you sure you want to Logout")
+                .setPositiveButton("Confirm", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        firebaseAuth.signOut();
+                        checkUser();
+                    }
+                })
+                .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.dismiss();
+                    }
+                })
+                .show();
+    }
 
 
 
