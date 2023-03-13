@@ -2,6 +2,8 @@ package com.crrit.crrithandbook.timetables;
 
 import android.widget.Filter;
 
+import com.crrit.crrithandbook.models.ModelCategorytt12;
+
 import java.util.ArrayList;
 
 public class FilterCategoryAdmintt12 extends Filter {

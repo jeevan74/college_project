@@ -2,6 +2,9 @@ package com.crrit.crrithandbook.lessonplans.lessonplan21;
 
 import android.widget.Filter;
 
+import com.crrit.crrithandbook.models.ModelCategorylp21;
+import com.crrit.crrithandbook.models.ModelPdflp21;
+
 import java.util.ArrayList;
 
 public class FilterPdfFacultyandStudentlp21 extends Filter {

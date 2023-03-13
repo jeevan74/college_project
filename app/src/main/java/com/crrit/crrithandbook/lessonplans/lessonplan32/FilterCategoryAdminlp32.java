@@ -2,6 +2,8 @@ package com.crrit.crrithandbook.lessonplans.lessonplan32;
 
 import android.widget.Filter;
 
+import com.crrit.crrithandbook.models.ModelCategorylp32;
+
 import java.util.ArrayList;
 
 public class FilterCategoryAdminlp32 extends Filter {

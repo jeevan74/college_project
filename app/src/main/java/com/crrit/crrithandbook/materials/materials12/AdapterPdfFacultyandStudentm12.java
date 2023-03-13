@@ -16,6 +16,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.crrit.crrithandbook.databinding.RowPdfFacultyAndStudentm12Binding;
+import com.crrit.crrithandbook.models.ModelPdfm12;
 import com.github.barteksc.pdfviewer.PDFView;
 
 import java.util.ArrayList;

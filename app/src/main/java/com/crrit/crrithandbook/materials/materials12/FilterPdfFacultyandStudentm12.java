@@ -2,6 +2,9 @@ package com.crrit.crrithandbook.materials.materials12;
 
 import android.widget.Filter;
 
+import com.crrit.crrithandbook.models.ModelCategorym12;
+import com.crrit.crrithandbook.models.ModelPdfm12;
+
 import java.util.ArrayList;
 
 public class FilterPdfFacultyandStudentm12 extends Filter {

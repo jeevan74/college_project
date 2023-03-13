@@ -15,6 +15,7 @@ import android.view.WindowManager;
 
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.databinding.ActivityPdfListFacultyandStudentActivityl32Binding;
+import com.crrit.crrithandbook.models.ModelPdfl32;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

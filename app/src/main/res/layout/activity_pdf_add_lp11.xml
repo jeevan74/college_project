@@ -82,7 +82,7 @@
                         android:drawableStart="@drawable/ic_lab_name"
                         android:drawablePadding="10dp"
                         android:ems="10"
-                        android:hint="Enter the Lab Name"
+                        android:hint="Enter Subject Name"
                         android:importantForAutofill="no"
                         android:inputType="textPersonName|textCapWords"
                         android:padding="8dp"

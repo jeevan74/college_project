@@ -2,6 +2,9 @@ package com.crrit.crrithandbook.syllabus;
 
 import android.widget.Filter;
 
+import com.crrit.crrithandbook.models.ModelCategorySyllabus;
+import com.crrit.crrithandbook.models.ModelPdfSyllabus;
+
 import java.util.ArrayList;
 
 public class FilterPdfFacultyandStudentSyllabus extends Filter {

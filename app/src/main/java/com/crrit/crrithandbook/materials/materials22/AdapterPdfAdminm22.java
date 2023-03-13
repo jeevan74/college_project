@@ -18,6 +18,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.crrit.crrithandbook.databinding.RowPdfAdminm22Binding;
+import com.crrit.crrithandbook.models.ModelPdfm22;
 import com.github.barteksc.pdfviewer.PDFView;
 
 import java.util.ArrayList;

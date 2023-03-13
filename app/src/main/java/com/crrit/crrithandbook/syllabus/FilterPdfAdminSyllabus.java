@@ -2,6 +2,8 @@ package com.crrit.crrithandbook.syllabus;
 
 import android.widget.Filter;
 
+import com.crrit.crrithandbook.models.ModelPdfSyllabus;
+
 import java.util.ArrayList;
 
 public class FilterPdfAdminSyllabus extends Filter {

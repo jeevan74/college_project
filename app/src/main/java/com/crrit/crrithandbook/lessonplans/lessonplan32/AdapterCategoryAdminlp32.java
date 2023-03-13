@@ -21,6 +21,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.databinding.RowCategoryAdminBinding;
+import com.crrit.crrithandbook.models.ModelCategorylp32;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;
@@ -78,7 +79,7 @@ public class AdapterCategoryAdminlp32 extends RecyclerView.Adapter<AdapterCatego
                 //confirm delete dialog
                 AlertDialog.Builder builder = new AlertDialog.Builder(context);
                 builder.setTitle("Delete")
-                        .setMessage("Are you sure you want to delete this Lab?")
+                        .setMessage("Are you sure you want to delete this Subject?")
                         .setPositiveButton("Confirm", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {

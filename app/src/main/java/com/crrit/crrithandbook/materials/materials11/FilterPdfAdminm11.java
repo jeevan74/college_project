@@ -2,6 +2,8 @@ package com.crrit.crrithandbook.materials.materials11;
 
 import android.widget.Filter;
 
+import com.crrit.crrithandbook.models.ModelPdfm11;
+
 import java.util.ArrayList;
 
 public class FilterPdfAdminm11 extends Filter {

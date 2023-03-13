@@ -2,6 +2,8 @@ package com.crrit.crrithandbook.materials.materials21;
 
 import android.widget.Filter;
 
+import com.crrit.crrithandbook.models.ModelCategorym21;
+
 import java.util.ArrayList;
 
 public class FilterCategoryFacultyandStudentm21 extends Filter {

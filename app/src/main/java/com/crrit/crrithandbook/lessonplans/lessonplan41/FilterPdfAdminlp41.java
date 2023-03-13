@@ -2,6 +2,8 @@ package com.crrit.crrithandbook.lessonplans.lessonplan41;
 
 import android.widget.Filter;
 
+import com.crrit.crrithandbook.models.ModelPdflp41;
+
 import java.util.ArrayList;
 
 public class FilterPdfAdminlp41 extends Filter {

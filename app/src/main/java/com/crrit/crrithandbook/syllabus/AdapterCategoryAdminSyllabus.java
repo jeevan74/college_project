@@ -20,6 +20,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.databinding.RowCategoryAdminsyllabusBinding;
+import com.crrit.crrithandbook.models.ModelCategorySyllabus;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;

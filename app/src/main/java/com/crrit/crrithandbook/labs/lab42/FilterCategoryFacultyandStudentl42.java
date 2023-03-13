@@ -2,6 +2,8 @@ package com.crrit.crrithandbook.labs.lab42;
 
 import android.widget.Filter;
 
+import com.crrit.crrithandbook.models.ModelCategoryl42;
+
 import java.util.ArrayList;
 
 public class FilterCategoryFacultyandStudentl42 extends Filter {

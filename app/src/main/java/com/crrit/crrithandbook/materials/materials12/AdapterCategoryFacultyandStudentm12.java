@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.crrit.crrithandbook.databinding.RowCategoryFacultyAndStudentm12Binding;
+import com.crrit.crrithandbook.models.ModelCategorym12;
 
 import java.util.ArrayList;
 

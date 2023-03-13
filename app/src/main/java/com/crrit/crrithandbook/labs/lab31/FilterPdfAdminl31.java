@@ -2,6 +2,8 @@ package com.crrit.crrithandbook.labs.lab31;
 
 import android.widget.Filter;
 
+import com.crrit.crrithandbook.models.ModelPdfl31;
+
 import java.util.ArrayList;
 
 public class FilterPdfAdminl31 extends Filter {

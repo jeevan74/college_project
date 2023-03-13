@@ -2,6 +2,9 @@ package com.crrit.crrithandbook.timetables;
 
 import android.widget.Filter;
 
+import com.crrit.crrithandbook.models.ModelCategorytt12;
+import com.crrit.crrithandbook.models.ModelPdftt12;
+
 import java.util.ArrayList;
 
 public class FilterPdfFacultyandStudenttt12 extends Filter {

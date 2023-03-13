@@ -2,6 +2,8 @@ package com.crrit.crrithandbook.lessonplans.lessonplan31;
 
 import android.widget.Filter;
 
+import com.crrit.crrithandbook.models.ModelCategorylp31;
+
 import java.util.ArrayList;
 
 public class FilterCategoryFacultyandStudentlp31 extends Filter {
