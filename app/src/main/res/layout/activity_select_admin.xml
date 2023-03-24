@@ -8,7 +8,16 @@
         tools:context=".users.admin.SelectActivityAdmin"
         android:background="@color/white">
 
-        <RelativeLayout
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <RelativeLayout
             android:id="@+id/toolbarRL"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
@@ -252,6 +261,10 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
         </GridLayout>
+    </RelativeLayout>
+
+    </ScrollView>
+
 
     </RelativeLayout>
 </layout>
