@@ -8,15 +8,6 @@
         tools:context=".users.faculty.SelectActivityFaculty"
         android:background="@color/white">
 
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
         <RelativeLayout
             android:id="@+id/toolbarRL"
             android:layout_width="match_parent"
@@ -261,10 +252,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
         </GridLayout>
-
-    </RelativeLayout>
-
-    </ScrollView>
 
     </RelativeLayout>
 </layout>

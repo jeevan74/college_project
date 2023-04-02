@@ -7,6 +7,14 @@
         android:layout_height="match_parent"
         tools:context=".users.admin.SelectActivityAdmin"
         android:background="@color/white">
+        
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -266,5 +274,9 @@
     </ScrollView>
 
 
+        </RelativeLayout>
+
+    </ScrollView>
+        
     </RelativeLayout>
 </layout>

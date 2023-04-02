@@ -143,19 +143,16 @@ public class LoginActivity extends AppCompatActivity {
                         if (userType.equals("user")){
                             //this is for student open student dashboard
                             startActivity(new Intent(LoginActivity.this, SelectActivityStudent.class));
-                            Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
                             //startActivity(new Intent(LoginActivity.this, LabsUserFragment.class));
                             finish();
                         }else if (userType.equals("faculty")){
                             //this is for faculty open faculty dashboard
                             startActivity(new Intent(LoginActivity.this, SelectActivityFaculty.class));
-                            Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
                             finish();
                         }
                         else if (userType.equals("admin")){
                             //this is for admin open admin dashboard
                             startActivity(new Intent(LoginActivity.this, SelectActivityAdmin.class));
-                            Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_LONG).show();
                             finish();
                         }
                     }
