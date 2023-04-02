@@ -9,16 +9,16 @@ import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.crrit.crrithandbook.lessonplans.lessonplan42.DashboardFacultyActivitylp42;
-import com.crrit.crrithandbook.lessonplans.lessonplan41.DashboardFacultyActivitylp41;
-import com.crrit.crrithandbook.lessonplans.lessonplan32.DashboardFacultyActivitylp32;
-import com.crrit.crrithandbook.lessonplans.lessonplan31.DashboardFacultyActivitylp31;
-import com.crrit.crrithandbook.lessonplans.lessonplan21.DashboardFacultyActivitylp21;
-import com.crrit.crrithandbook.lessonplans.lessonplan22.DashboardFacultyActivitylp22;
-import com.crrit.crrithandbook.lessonplans.lessonplan12.DashboardFacultyActivitylp12;
-import com.crrit.crrithandbook.lessonplans.lessonplan11.DashboardFacultyActivitylp11;
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.databinding.ActivitySemLessonplansFacultyBinding;
+import com.crrit.crrithandbook.lessonplans.lessonplan11.DashboardFacultyActivitylp11;
+import com.crrit.crrithandbook.lessonplans.lessonplan12.DashboardFacultyActivitylp12;
+import com.crrit.crrithandbook.lessonplans.lessonplan21.DashboardFacultyActivitylp21;
+import com.crrit.crrithandbook.lessonplans.lessonplan22.DashboardFacultyActivitylp22;
+import com.crrit.crrithandbook.lessonplans.lessonplan31.DashboardFacultyActivitylp31;
+import com.crrit.crrithandbook.lessonplans.lessonplan32.DashboardFacultyActivitylp32;
+import com.crrit.crrithandbook.lessonplans.lessonplan41.DashboardFacultyActivitylp41;
+import com.crrit.crrithandbook.lessonplans.lessonplan42.DashboardFacultyActivitylp42;
 
 
 public class SemLessonplansFacultyActivity extends AppCompatActivity {

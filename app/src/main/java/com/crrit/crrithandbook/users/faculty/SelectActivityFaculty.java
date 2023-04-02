@@ -11,12 +11,14 @@ import android.view.WindowManager;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.crrit.crrithandbook.timetables.DashboardFacultyActivitytt12;
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.constants.MainActivity;
 import com.crrit.crrithandbook.databinding.ActivitySelectFacultyBinding;
-import com.crrit.crrithandbook.syllabus.DashboardFacultyActivitySyllabus;
-import com.crrit.crrithandbook.users.student.SelectActivityStudent;
+import com.crrit.crrithandbook.syllabus.DashboardAdminActivitySyllabus;
+import com.crrit.crrithandbook.timetables.DashboardAdminActivitytt12;
+import com.crrit.crrithandbook.users.admin.SemLabsAdminActivity;
+import com.crrit.crrithandbook.users.admin.SemLessonplansAdminActivity;
+import com.crrit.crrithandbook.users.admin.SemMaterialsActivityAdmin;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -51,35 +53,35 @@ public class SelectActivityFaculty extends AppCompatActivity {
         binding.CV1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(SelectActivityFaculty.this, DashboardFacultyActivitySyllabus.class));
+                startActivity(new Intent(SelectActivityFaculty.this, DashboardAdminActivitySyllabus.class));
             }
         });
 
         binding.CV2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(SelectActivityFaculty.this, SemMaterialsActivityFaculty.class));
+                startActivity(new Intent(SelectActivityFaculty.this, SemMaterialsActivityAdmin.class));
             }
         });
 
         binding.CV3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(SelectActivityFaculty.this, SemLabsFacultyActivity.class));
+                startActivity(new Intent(SelectActivityFaculty.this, SemLabsAdminActivity.class));
             }
         });
 
         binding.CV4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(SelectActivityFaculty.this, SemLessonplansFacultyActivity.class));
+                startActivity(new Intent(SelectActivityFaculty.this, SemLessonplansAdminActivity.class));
             }
         });
 
         binding.CV5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(SelectActivityFaculty.this, DashboardFacultyActivitytt12.class));
+                startActivity(new Intent(SelectActivityFaculty.this, DashboardAdminActivitytt12.class));
             }
         });
     }

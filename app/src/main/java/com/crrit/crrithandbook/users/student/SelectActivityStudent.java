@@ -11,11 +11,11 @@ import android.view.WindowManager;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.crrit.crrithandbook.timetables.DashboardStudentActivitytt12;
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.constants.MainActivity;
 import com.crrit.crrithandbook.databinding.ActivitySelectStudentBinding;
 import com.crrit.crrithandbook.syllabus.DashboardStudentActivitySyllabus;
+import com.crrit.crrithandbook.timetables.DashboardStudentActivitytt12;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 

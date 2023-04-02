@@ -1,8 +1,5 @@
 package com.crrit.crrithandbook.lessonplans.lessonplan11;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -12,9 +9,11 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.constants.MainActivity;
-
 import com.crrit.crrithandbook.databinding.ActivityDashboardFacultyLp11Binding;
 import com.crrit.crrithandbook.models.ModelCategorylp11;
 import com.google.firebase.auth.FirebaseAuth;

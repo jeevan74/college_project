@@ -12,7 +12,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-
 import com.crrit.crrithandbook.databinding.RowCategoryFacultyAndStudentBinding;
 import com.crrit.crrithandbook.models.ModelCategorytt12;
 
@@ -21,7 +20,7 @@ import java.util.ArrayList;
 
 public class AdapterCategoryFacultyandStudenttt12 extends RecyclerView.Adapter<AdapterCategoryFacultyandStudenttt12.HolderCategory>implements Filterable {
 
-    private Context context;
+    private final Context context;
     public ArrayList<ModelCategorytt12> categoryArrayList1,filterList;
 
     private RowCategoryFacultyAndStudentBinding binding;

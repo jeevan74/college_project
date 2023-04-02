@@ -16,7 +16,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.crrit.crrithandbook.databinding.RowPdfFacultyAndStudentBinding;
-
 import com.crrit.crrithandbook.models.ModelPdftt12;
 import com.github.barteksc.pdfviewer.PDFView;
 
@@ -24,7 +23,7 @@ import java.util.ArrayList;
 
 public class AdapterPdfFacultyandStudenttt12 extends RecyclerView.Adapter<AdapterPdfFacultyandStudenttt12.HolderPdfAdmin>implements Filterable {//
 
-    private Context context;//context
+    private final Context context;//context
 
 
     public ArrayList<ModelPdftt12> pdfArrayList,filterlist;//array holder
@@ -34,7 +33,7 @@ public class AdapterPdfFacultyandStudenttt12 extends RecyclerView.Adapter<Adapte
 
     private FilterPdfFacultyandStudenttt12 filter;
     private static final String TAG ="PDF_ADAPTER_TAG";
-    private ProgressDialog progressDialog;
+    private final ProgressDialog progressDialog;
 
     //con
     public AdapterPdfFacultyandStudenttt12(Context context1, ArrayList<ModelPdftt12> pdfArrayList) {

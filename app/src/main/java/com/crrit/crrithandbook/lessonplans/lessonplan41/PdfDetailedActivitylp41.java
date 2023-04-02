@@ -1,11 +1,5 @@
 package com.crrit.crrithandbook.lessonplans.lessonplan41;
 
-import androidx.activity.result.ActivityResultLauncher;
-import androidx.activity.result.contract.ActivityResultContracts;
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
-
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -16,6 +10,12 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
+
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.constants.PdfViewActivity;
@@ -105,7 +105,7 @@ public class PdfDetailedActivitylp41 extends AppCompatActivity {
 
     }
     //request storage permissions
-    private ActivityResultLauncher<String> requestPermissionsLauncher =
+    private final ActivityResultLauncher<String> requestPermissionsLauncher =
             registerForActivityResult(new ActivityResultContracts.RequestPermission(), isGranted ->{
                 if (isGranted){
                     Log.d(TAG_DOWNLOAD, "Permissions Granted");

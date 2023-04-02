@@ -18,7 +18,6 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.databinding.RowCategoryAdmintt12Binding;
 import com.crrit.crrithandbook.models.ModelCategorytt12;

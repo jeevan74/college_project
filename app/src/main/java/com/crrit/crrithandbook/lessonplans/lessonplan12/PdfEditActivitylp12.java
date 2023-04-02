@@ -1,9 +1,5 @@
 package com.crrit.crrithandbook.lessonplans.lessonplan12;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.os.Build;
@@ -14,6 +10,10 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.databinding.ActivityPdfEditLp12Binding;

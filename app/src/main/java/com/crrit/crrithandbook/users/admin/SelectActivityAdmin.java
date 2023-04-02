@@ -11,13 +11,11 @@ import android.view.WindowManager;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.crrit.crrithandbook.databinding.ActivitySelectAdminBinding;
-import com.crrit.crrithandbook.timetables.DashboardAdminActivitytt12;
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.constants.MainActivity;
-
+import com.crrit.crrithandbook.databinding.ActivitySelectAdminBinding;
 import com.crrit.crrithandbook.syllabus.DashboardAdminActivitySyllabus;
-import com.crrit.crrithandbook.users.student.SelectActivityStudent;
+import com.crrit.crrithandbook.timetables.DashboardAdminActivitytt12;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 

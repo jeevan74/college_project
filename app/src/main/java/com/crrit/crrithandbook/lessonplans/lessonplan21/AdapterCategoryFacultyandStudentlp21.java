@@ -15,7 +15,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.crrit.crrithandbook.databinding.RowCategoryFacultyAndStudentBinding;
 import com.crrit.crrithandbook.models.ModelCategorylp21;
 
-
 import java.util.ArrayList;
 
 

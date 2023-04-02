@@ -9,7 +9,6 @@ import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.crrit.crrithandbook.labs.lab32.DashboardFacultyActivityl32;
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.databinding.ActivitySemLabsFacultyBinding;
 import com.crrit.crrithandbook.labs.lab11.DashboardFacultyActivityl11;
@@ -17,6 +16,7 @@ import com.crrit.crrithandbook.labs.lab12.DashboardFacultyActivityl12;
 import com.crrit.crrithandbook.labs.lab21.DashboardFacultyActivityl21;
 import com.crrit.crrithandbook.labs.lab22.DashboardFacultyActivityl22;
 import com.crrit.crrithandbook.labs.lab31.DashboardFacultyActivityl31;
+import com.crrit.crrithandbook.labs.lab32.DashboardFacultyActivityl32;
 import com.crrit.crrithandbook.labs.lab41.DashboardFacultyActivityl41;
 import com.crrit.crrithandbook.labs.lab42.DashboardFacultyActivityl42;
 

@@ -18,7 +18,6 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.crrit.crrithandbook.databinding.RowPdfAdminBinding;
-
 import com.crrit.crrithandbook.models.ModelPdflp41;
 import com.github.barteksc.pdfviewer.PDFView;
 
@@ -26,12 +25,12 @@ import java.util.ArrayList;
 
 public class AdapterPdfAdminlp41 extends RecyclerView.Adapter<AdapterPdfAdminlp41.HolderPdfAdmin> implements Filterable {//
 
-    private Context context;//context
+    private final Context context;//context
     public ArrayList<ModelPdflp41> pdfArrayList,filterlist;//array holder
     private RowPdfAdminBinding binding;//vb
     private FilterPdfAdminlp41 filter;
     private static final String TAG ="PDF_ADAPTER_TAG";
-    private ProgressDialog progressDialog;
+    private final ProgressDialog progressDialog;
 
     //con
     public AdapterPdfAdminlp41(Context context1, ArrayList<ModelPdflp41> pdfArrayList) {

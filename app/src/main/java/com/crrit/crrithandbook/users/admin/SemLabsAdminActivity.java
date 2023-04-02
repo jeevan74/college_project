@@ -11,12 +11,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.databinding.ActivitySemLabsAdminBinding;
-import com.crrit.crrithandbook.labs.lab32.DashboardAdminActivityl32;
 import com.crrit.crrithandbook.labs.lab11.DashboardAdminActivityl11;
 import com.crrit.crrithandbook.labs.lab12.DashboardAdminActivityl12;
 import com.crrit.crrithandbook.labs.lab21.DashboardAdminActivityl21;
 import com.crrit.crrithandbook.labs.lab22.DashboardAdminActivityl22;
 import com.crrit.crrithandbook.labs.lab31.DashboardAdminActivityl31;
+import com.crrit.crrithandbook.labs.lab32.DashboardAdminActivityl32;
 import com.crrit.crrithandbook.labs.lab41.DashboardAdminActivityl41;
 import com.crrit.crrithandbook.labs.lab42.DashboardAdminActivityl42;
 

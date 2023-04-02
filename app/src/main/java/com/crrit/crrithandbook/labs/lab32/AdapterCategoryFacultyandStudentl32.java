@@ -12,7 +12,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-
 import com.crrit.crrithandbook.databinding.RowCategoryFacultyAndStudentBinding;
 import com.crrit.crrithandbook.models.ModelCategoryl32;
 

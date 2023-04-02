@@ -1,8 +1,5 @@
 package com.crrit.crrithandbook.lessonplans.lessonplan42;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.ProgressDialog;
 import android.os.Build;
 import android.os.Bundle;
@@ -11,6 +8,9 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.crrit.crrithandbook.R;
 import com.crrit.crrithandbook.databinding.ActivityCategoryAddLp42Binding;
